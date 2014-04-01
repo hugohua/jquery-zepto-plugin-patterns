@@ -18,7 +18,7 @@ if (typeof options === 'string') instance[options].apply(instance,Array.prototyp
 
 
 ##来源
-(http://www.ghugo.com/jq-zepto-template-write-patterns/)
+http://www.ghugo.com/jq-zepto-template-write-patterns/
 
 ## Changelog
 * v0.1 项目创建
