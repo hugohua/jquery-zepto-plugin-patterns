@@ -9,7 +9,7 @@ jquery / zepto plugin patterns
 在这里留了个小悬念，如果调用带参数的方法，则以下这句需要修改一下
 ```js
 if (typeof options === 'string') instance[options]();
-js
+```
 
 修改为
 ```js
