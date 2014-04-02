@@ -17,6 +17,7 @@
      * 这里是插件的主体部分
      * 这里是一个自运行的单例模式。
      * 这里之所以用一个 Plugin 的单例模式 包含一个 Plugin的类，主要是为了封装性，更好的划分代码块
+     * 是一种高内聚低耦合的设计思想：http://baike.baidu.com/link?url=Dykaa8O8lYT-atvtziytO3zNPQYCOcKRy5VU5iDK3JkX2yhZu6J42ZCzK3Nzfdsw3imWqv16zW2j-X_PMMBUfK
      * 同时 也 方便区分私有方法及公共方法
      * PS：但有时私有方法为了方便还是写在了Plugin类里，这时建议私有方法前加上"_"
      */
