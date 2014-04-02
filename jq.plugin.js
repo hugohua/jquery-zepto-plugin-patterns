@@ -87,6 +87,7 @@
         return this.each(function () {
             var $me = $(this),
                 instance = $me.data('plugin');
+            //只实例化一次，后续如果再次调用了该插件时，则直接获取缓存的对象
             if(!instance){
                 //将实例化后的插件缓存在dom结构里（内存里）
                 $me.data('plugin', new Plugin(this, options));
