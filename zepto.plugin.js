@@ -113,4 +113,4 @@
     $(function () {
         $('[data-plugin]').plugin();
     });
-})(JQuery);
+})(zepto);

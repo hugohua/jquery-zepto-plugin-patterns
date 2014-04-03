@@ -119,4 +119,4 @@
     $(function () {
         $('[data-plugin]').plugin();
     });
-})(JQuery);
+})(jQuery);
