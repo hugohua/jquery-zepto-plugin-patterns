@@ -58,6 +58,8 @@
          * @type {{}}
          */
         Plugin.prototype = {
+            //将构造函数的指向重新定位到Plugin
+            constructor:Plugin,
 
             init:function(){
                 console.log('init');
@@ -99,7 +101,7 @@
              * doSomething是刚才定义的接口。
              * 这种方法 在 juqery ui 的插件里 很常见。
              */
-            if ($.type(options) === 'string') instance[options]();
+            if ($.type(options) === 'string') return instance[options]();
         });
     };
 

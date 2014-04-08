@@ -54,6 +54,8 @@
          */
         Plugin.prototype = {
 
+            constructor:Plugin,
+
             init:function(){
 
             },
@@ -91,7 +93,7 @@
                 instance = $.fn.plugin.lookup[$this.data('plugin')];
             }
 
-            if (typeof options === 'string') instance[options]();
+            if (typeof options === 'string') return instance[options]();
         })
     };
 
