@@ -119,6 +119,6 @@
      * 可以查看bootstrap 里面的JS插件写法
      */
     $(function () {
-        $('[data-plugin]').plugin(); 
+        $('[data-plugin]').plugin();
     });
 })(jQuery);
