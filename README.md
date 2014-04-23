@@ -13,7 +13,7 @@ if (typeof options === 'string') instance[options]();
 
 修改为
 ```js
-if (typeof options === 'string') instance[options].apply(instance,Array.prototype.slice.call(args, 1));
+if (typeof options === 'string') instance[options].apply(instance,[].slice.call(arguments, 1));
 ```
 
 
